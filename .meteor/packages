@@ -13,7 +13,6 @@ tracker                 # Meteor's client-side reactive programming library
 es5-shim                # ECMAScript 5 compatibility for older browsers.
 
 react-meteor-data
-thereactivestack:blazetoreact
 
 webpack:webpack
 webpack:react
@@ -25,4 +24,4 @@ accounts-password
 blaze-html-templates
 standard-minifier-css
 standard-minifier-js
-react-runtime
+thereactivestack:blazetoreact
