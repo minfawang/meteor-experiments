@@ -1,6 +1,10 @@
 import React from 'react';
+import DimImage from './DimImage';
 import ProgressBar from 'ProgressBar/client';
 import styles from '../styles/Home';
+
+const IMG_URL = 'https://s-media-cache-ak0.pinimg.com/' +
+  '736x/12/41/1c/12411c7e569751f16c1efe5dc7d280d9.jpg';
 
 const circleOptions = {
   strokeWidth: 6,
@@ -52,6 +56,8 @@ class Home extends React.Component {
         />
 
         <div>Still working?</div>
+
+      <DimImage url={IMG_URL} />
       </div>
     );
   }
