@@ -1,5 +1,4 @@
 import React, { PropTypes } from 'react';
-import ReactDOM from 'react-dom';
 import { isEqual } from 'lodash';
 
 class Shape extends React.Component {
@@ -47,8 +46,7 @@ class Shape extends React.Component {
 
     // setState function is not used to prevent a new render cycle
     // This handling happens outside of React component's lifecycle
-    // const container = React.findDOMNode(this.refs.progressBar);
-    const container = ReactDOM.findDOMNode(this.refs.progressBar);
+    const container = this.refs.progressBar;
     const { ShapeClass } = props;
     this.shape = new ShapeClass(
       container,
