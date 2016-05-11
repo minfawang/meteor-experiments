@@ -1,6 +1,13 @@
 {
   "root": "src",
   "devServer": {
-    "host": "localhost"
+    "host": "localhost",
+    "port": 5522
+  },
+  "css": {
+    "modules": true
+  },
+  "hotMiddleware": {
+    "reload": true
   }
 }
