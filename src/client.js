@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { Router, browserHistory } from 'react-router';
 import { Meteor } from 'meteor/meteor';
-import home from 'Home/client/routes';
+import home from 'ui/Home/routes';
 
 const routes = {
   childRoutes: [
