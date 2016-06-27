@@ -22,3 +22,5 @@ standard-minifier-css
 standard-minifier-js
 webpack:less
 templating
+aldeed:simple-schema
+aldeed:collection2
