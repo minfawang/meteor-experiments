@@ -1,7 +1,7 @@
 {
   "name": "kickstart-meteor-react",
   "private": "true",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Kickstart a simple meteor-react project fast!",
   "main": "src/server.js",
   "browser": "src/client.js",
